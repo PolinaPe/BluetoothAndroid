@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout android:padding="10dip" 
+    android:layout_height="fill_parent"
+     android:layout_width="fill_parent" android:orientation="vertical" 
+     xmlns:android="http://schemas.android.com/apk/res/android">
+
+<Button android:layout_height="wrap_content"
+     android:layout_width="fill_parent" 
+     android:onClick="onEnableButtonClicked" 
+     android:text="Open BT"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:onClick="onDisableButtonClicked" android:text="Close BT"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:onClick="onOpenClientSocketButtonClicked" android:text="AS Clinet"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:onClick="onOpenServerSocketButtonClicked" android:text="AS Server"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:onClick="onStartDiscoveryButtonClicked" android:text="Search Device"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:onClick="onClientDatenbankClicked" android:text="Client Datenbank"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:onClick="onServerDatenbankClicked" android:text="Server Datenbank"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:onClick="onGraphicActivityClicked" android:text="Graphic online"/>
+</LinearLayout>
