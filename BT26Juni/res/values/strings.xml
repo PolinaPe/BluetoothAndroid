@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BT26Juni</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_client_socket">ClientSocketActivity</string>
+    <string name="title_activity_server_socket">ServerSocketActivity</string>
+    <string name="title_activity_discovery">DiscoveryActivity</string>
+    <string name="title_activity_samples_utils">SamplesUtilsActivity</string>
+    <string name="title_activity_datenbank_tabelle">DatenbankTabelle</string>
+    <string name="hello">Unsere Datenbank</string>
+
+</resources>
